@@ -1,7 +1,7 @@
 # Kasiski
 Python script that breaks Vigenere cipher in spanish by using the Kasiski method
 
-This method automatizes the Kasiski attack to the Vigenere cipher for texts ciphered in Spanish. (https://www.youtube.com/watch?v=K3tpKeDQs6s)
+This method automatizes the Kasiski attack to the Vigenere cipher for texts ciphered in Spanish.
 
 ## How does the program work
 *  Estimates key length by getting the 5 most common N-Grams. As the key repeats every L positions (where L is the key length), its very likely that if several N-Grams are repeated twice or more, the gcd of their separations equals to L. If the script gets a gcd equal to 1 (which means a key length of 1, something really unlikely in Vigenere Cipher), it will repeat the procedure but getting the 4, 3, 2 and 1 most common N-Grams (instead of 5) until the gcd is different from 1.
