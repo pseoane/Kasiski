@@ -27,5 +27,7 @@ MESSAGE
 THISISAMESSAGEENCRYPTEDUSINGVIGENERECIPHERINVENTEDINXVICENTURYITWASFORYEARSDESCRIBEDASTHEINDECIPHERABLEFIGURE...
 ```
 
-## Credits
-Author: Paulo Seoane Davila
+## References
+*  [Class4crypt c4c6.6 Criptoanálisis a la cifra de Vigenère por el método Kasiski](https://www.youtube.com/watch?v=K3tpKeDQs6s)
+*  [Píldora formativa 20: ¿Cómo se ataca por Kasiski la cifra de Vigenère?](https://www.youtube.com/watch?v=A7p2ydEPg1k)+
+*  [Kasiski examination - Wikipedia](https://en.wikipedia.org/wiki/Kasiski_examination)
